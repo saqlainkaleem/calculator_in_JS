@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+#container{
+    height: 550px;
+    width: 1000px;
+    background-color: azure;
+    margin: 20px auto;
+}
+
+#calculator{
+    height: 520px;
+    width: 320px;
+    background-color: rgb(140, 155, 155);
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    color: rgb(80, 4, 4);
+}
+
+#output{
+    text-align: right;
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#keyboard{
+    height: 400px;
+}
+
+.operator, .number, .empty{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: rgb(140, 155, 155);
+}
+
+.operator,.number{
+    cursor: pointer;
+}
+
+.operator{
+    background-color: orange;
+    font-size: 16px;
+}
+
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
