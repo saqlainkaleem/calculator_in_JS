@@ -1,3 +1,3 @@
-# calculator_in_JS
+<h2 align="center"> Calculator in JS </h2>
+This Calculator is build using Java Script
 
-# This Calculator is build using Java Script
